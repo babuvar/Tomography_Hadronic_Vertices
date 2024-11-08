@@ -1,0 +1,36 @@
+{
+"hadvert_vars_2trk" : {
+	"vtx_mass_2trk" : "daughterInvariantMass(0, 1)",
+        "X_2trk" : "x",
+        "Y_2trk" : "y",
+        "Z_2trk" : "z",
+	"Rho_2trk" : "formula( ( (x*x) + (y*y) )^0.5 )",
+	"vtx_chiProb_2trk" : "chiProb",
+	"pi1_mom_2trk" : "daughter(0,p)",
+        "pi2_mom_2trk" : "daughter(1,p)",
+        "pi1_px_2trk" : "daughter(0,px)",
+        "pi1_py_2trk" : "daughter(0,py)",
+        "pi1_pz_2trk" : "daughter(0,pz)",
+        "pi2_px_2trk" : "daughter(1,px)",
+        "pi2_py_2trk" : "daughter(1,py)",
+        "pi2_pz_2trk" : "daughter(1,pz)",
+        "pi1_E_2trk" : "daughter(0,E)",
+        "pi2_E_2trk" : "daughter(1,E)",
+        "pi1_PID_2trk" : "daughter(0,pionID)",
+        "pi2_PID_2trk" : "daughter(1,pionID)",
+	"pi1_mcPDG_2trk" : "daughter(0,mcPDG)",
+        "pi2_mcPDG_2trk" : "daughter(1,mcPDG)",
+        "pi1_genmomPDG_2trk" : "daughter(0,genMotherPDG)",
+        "pi2_genmomPDG_2trk" : "daughter(1,genMotherPDG)",
+	"mcProdX_2trk" : "daughter(0,mcProdVertexX)",
+        "mcProdY_2trk" : "daughter(0,mcProdVertexY)",
+        "mcProdZ_2trk" : "daughter(0,mcProdVertexZ)",
+	"pi1_firstPXDLayer_2trk" : "daughter(0,firstPXDLayer)",
+        "pi2_firstPXDLayer_2trk" : "daughter(1,firstPXDLayer)",
+        "pi1_firstSVDLayer_2trk" : "daughter(0,firstSVDLayer)",
+        "pi2_firstSVDLayer_2trk" : "daughter(1,firstSVDLayer)",
+	"date_2trk" : "date"
+}
+}
+
+

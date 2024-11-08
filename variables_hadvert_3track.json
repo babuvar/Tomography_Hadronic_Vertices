@@ -1,0 +1,36 @@
+{
+"hadvert_vars" : {
+	"vtx_mass" : "daughterInvariantMass(0, 1, 2)",
+	"mass12" : "daughterInvariantMass(0, 1)",
+	"mass23" : "daughterInvariantMass(1, 2)",
+	"mass31" : "daughterInvariantMass(0, 2)",
+        "X" : "x",
+        "Y" : "y",
+        "Z" : "z",
+	"Rho" : "formula( ( (x*x) + (y*y) )^0.5 )",
+	"vtx_chiProb" : "chiProb",
+	"pi1_mom" : "daughter(0,p)",
+        "pi2_mom" : "daughter(1,p)",
+	"pi3_mom" : "daughter(2,p)",
+        "pi1_PID" : "daughter(0,pionID)",
+        "pi2_PID" : "daughter(1,pionID)",
+	"pi3_PID" : "daughter(2,pionID)",
+	"pi1_mcPDG" : "daughter(0,mcPDG)",
+        "pi2_mcPDG" : "daughter(1,mcPDG)",
+	"pi3_mcPDG" : "daughter(2,mcPDG)",
+        "pi1_genmomPDG" : "daughter(0,genMotherPDG)",
+        "pi2_genmomPDG" : "daughter(1,genMotherPDG)",
+	"pi3_genmomPDG" : "daughter(2,genMotherPDG)",
+	"mcProdX" : "daughter(0,mcProdVertexX)",
+        "mcProdY" : "daughter(0,mcProdVertexY)",
+        "mcProdZ" : "daughter(0,mcProdVertexZ)",
+	"pi1_firstPXDLayer" : "daughter(0,firstPXDLayer)",
+        "pi2_firstPXDLayer" : "daughter(1,firstPXDLayer)",
+	"pi3_firstPXDLayer" : "daughter(2,firstPXDLayer)",
+        "pi1_firstSVDLayer" : "daughter(0,firstSVDLayer)",
+        "pi2_firstSVDLayer" : "daughter(1,firstSVDLayer)",
+	"pi3_firstSVDLayer" : "daughter(2,firstSVDLayer)"
+}
+}
+
+
